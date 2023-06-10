@@ -1,0 +1,571 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #3D087B;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.innercontainer1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+
+ .timecard{
+    width: 400px;
+    height: 300px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+
+label{
+    color: #3D087B;
+    font-size: 17px;
+    position: relative;
+    bottom: 8px;
+    left: 68px;
+    display: flex;
+    margin: -13px;
+}
+
+.card img{
+    position: relative;
+    left: 14px;
+    top: 14px;
+}
+
+#wakeuptime{
+    color: #3D087B;
+    background-color: white;
+    border-radius: 4px;
+    width: 185px;
+    height: 45px;
+    position: relative;
+    left: 196px;
+    bottom: 24px;
+}
+
+#lunchtime{
+    color: #3D087B;
+    background-color: white;
+    border-radius: 4px;
+    width: 185px;
+    height: 45px;
+    position: relative;
+    left: 196px;
+    bottom: 24px;
+}
+
+#naptime{
+    color: #3D087B;
+    background-color: white;
+    border-radius: 4px;
+    width: 185px;
+    height: 45px;
+    position: relative;
+    left: 196px;
+    bottom: 24px;
+}
+
+#nighttime{
+    color: #3D087B;
+    background-color: white;
+    border-radius: 4px;
+    width: 186px;
+    height: 45px;
+    position: relative;
+    left: 196px;
+    bottom: 24px;
+}
+
+h1{
+    padding: 20px;
+    color: white;
+    height: 28px;
+    width: 361px;
+    font-size: 20px;
+    background-color: #9140B5;
+    border-radius: 4px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+button{
+    height: 47px;
+    width: 165px;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    background-image: linear-gradient(To right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    top: 11px;
+}
+
+button:hover{
+    background-image: linear-gradient(To left, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+}
+
+
+.info p{
+    height: 75px;
+    width: 208px;
+    color: #F25CFE;
+    background-color: #9140B5;
+    border-radius: 8px;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    left: 171px;
+    bottom: 71px;
+}
+
+.innercontainer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    position: relative;
+    top: 31px;
+}
+
+.card4 h1{
+    height: 38px;
+    font-size: 19px;
+    border-radius: 9px;
+    top: -632px;
+    color: #8E53F0;
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+    padding-top: 34px;
+    position: relative;
+    top: -76px;
+}
+
+.card5 img{
+    height: 318px;
+    width: 401px;
+    position: relative;
+    bottom: 70px;
+    border-radius: 15px;
+}
+
+.smalltimecard{
+    height: 55px;
+    display: flex;
+    width: 358px;
+    font-weight: bolder;
+    color: #3D087B;
+    background-color: white;
+    border-radius: 8px;
+    text-align: left;
+    top: -556px;
+    padding-top: 35px;
+    padding-left: 34px;
+}
+
+#dot1{
+    font-size: 30px;
+    position: relative;
+    left: 68px;
+    bottom: 8px;
+}
+
+#dot2{
+    font-size: 30px;
+    position: relative;
+    left: 129px;
+    bottom: 8px;
+}
+
+
+.smalltimecardb1{
+    height: 29px;
+    display: flex;
+    width: 304px;
+    font-weight: bolder;
+    color: #3D087B;
+    background-color: white;
+    border-radius: 8px;
+    text-align: left;
+    top: -556px;
+    padding-top: 35px;
+    padding-left: 34px;
+    opacity: 0.7;
+    position: relative;
+    top: -57px;
+    z-index: -1;
+}
+
+.smalltimecardb2{
+    height: 12px;
+    display: flex;
+    width: 258px;
+    position: relative;
+    color: #3D087B;
+    background-color: white;
+    border-radius: 8px;
+    text-align: left;
+    top: -97px;
+    padding-top: 35px;
+    padding-left: 34px;
+    opacity: 0.5;
+    z-index: -2;
+}
+
+.smalltimecard p{
+    text-align: center;
+    position: relative;
+    bottom: 16px;
+    right: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.smalltimecard .pic1{
+    background-image: url(./timeline.svg);
+    height: 47px;
+    width: 53px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 22px;
+    padding-top: 7px;
+    bottom: 27px;
+    margin: 11px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#ampm{
+    background-image: url(./AM_svg.svg);
+    height: 37px;
+    width: 61px;
+    /* display: flex; */
+    justify-content: center;
+    position: relative;
+    right: 0px;
+    padding-top: 17px;
+    bottom: 18px;
+    margin: 11px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 16px;
+}
+
+/* .smalltimecard .lpic{
+    background-image: url(./AM_svg.svg);
+    height: 41px;
+    width: 53px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 28px;
+    padding-top: 7px;
+    bottom: 28px;
+    margin: 11px;
+    border-radius: 5px;
+    color: white;
+    padding-top: 14px;
+} */
+
+.smalltimecard img{
+    width: 60px;
+    height: 60px;
+}
+
+
+@media screen and (min-width:414px) and (max-width:819px){
+    body{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        background-color: #3D087B;
+    }
+    
+    .main-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 35px;
+    }
+    
+    .innercontainer1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5px;
+        align-content: center;
+    }
+    
+    .innercontainer1 .clockLogo{
+        margin: auto;
+    }
+    
+     .timecard{
+        width: 400px;
+        height: 300px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 10px;
+        opacity: 1;
+        position: relative;
+        top: 254px;
+    }
+
+    .clockLogo img{
+        position: relative;
+        right: 93px;
+    }
+    
+    
+    label{
+        color: #3D087B;
+        font-size: 17px;
+        position: relative;
+        bottom: 8px;
+        left: 68px;
+        display: flex;
+        margin: -13px;
+    }
+    
+    .card img{
+        position: relative;
+        left: 14px;
+        top: 14px;
+    }
+    
+    #wakeuptime{
+        color: #3D087B;
+        background-color: white;
+        border-radius: 4px;
+        width: 185px;
+        height: 45px;
+        position: relative;
+        left: 196px;
+        bottom: 24px;
+    }
+    
+    #lunchtime{
+        color: #3D087B;
+        background-color: white;
+        border-radius: 4px;
+        width: 185px;
+        height: 45px;
+        position: relative;
+        left: 196px;
+        bottom: 24px;
+    }
+    
+    #naptime{
+        color: #3D087B;
+        background-color: white;
+        border-radius: 4px;
+        width: 185px;
+        height: 45px;
+        position: relative;
+        left: 196px;
+        bottom: 24px;
+    }
+    
+    #nighttime{
+        color: #3D087B;
+        background-color: white;
+        border-radius: 4px;
+        width: 186px;
+        height: 45px;
+        position: relative;
+        left: 196px;
+        bottom: 24px;
+    }
+    
+    h1{
+        padding: 20px;
+        color: white;
+        height: 40px;
+        width: 361px;
+        font-size: 20px;
+        background-color: #9140B5;
+        border-radius: 4px;
+        font-family: Bauhaus Hv BT;
+    
+    }
+    
+    button{
+        height: 47px;
+        width: 165px;
+        font-family: 'Manrope', sans-serif;
+        color: white;
+        background-image: linear-gradient(To right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+        text-align: center;
+        padding: 10px;
+        border-radius: 2px;
+        position: relative;
+        top: 518px;
+        border-radius: 15px;
+    }
+    
+    button:hover{
+        background-image: linear-gradient(To left, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+    }
+    
+    .info p{
+        height: 75px;
+        width: 208px;
+        color: #F25CFE;
+        background-color: #9140B5;
+        border-radius: 8px;
+        text-align: left;
+        padding: 10px;
+        position: relative;
+        left: 171px;
+        top: 453px;
+    }
+    
+    
+    .innercontainer2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    
+    
+    }
+    
+    .card4 h1{
+        height: 38px;
+        font-size: 19px;
+        border-radius: 9px;
+        top: -632px;
+        color: #8E53F0;
+        background-color: white;
+        padding-top: 34px;
+        position: relative;
+        top: -687px;
+    }
+    
+    .card5 img{
+        height: 318px;
+        width: 401px;
+        position: relative;
+        bottom: 360px;
+    }
+    
+    .smalltimecard{
+        height: 55px;
+        display: flex;
+        width: 358px;
+        font-weight: bolder;
+        color: #3D087B;
+        background-color: white;
+        border-radius: 8px;
+        text-align: left;
+        top: -597px;
+        padding-top: 35px;
+        padding-left: 34px;
+        position: relative;
+    }
+    
+    #dot1{
+        font-size: 30px;
+        position: relative;
+        left: 68px;
+        bottom: 8px;
+    }
+    
+    #dot2{
+        font-size: 30px;
+        position: relative;
+        left: 129px;
+        bottom: 8px;
+    }
+    
+    
+    .smalltimecardb1{
+        height: 29px;
+        display: flex;
+        width: 304px;
+        font-weight: bolder;
+        color: #3D087B;
+        background-color: white;
+        border-radius: 8px;
+        text-align: left;
+        padding-top: 35px;
+        padding-left: 34px;
+        opacity: 0.7;
+        position: relative;
+        top: -649px;
+        z-index: -1;
+    }
+    
+    .smalltimecardb2{
+        height: 12px;
+        display: flex;
+        width: 258px;
+        position: relative;
+        color: #3D087B;
+        background-color: white;
+        border-radius: 8px;
+        text-align: left;
+        top: -686px;
+        padding-top: 35px;
+        padding-left: 34px;
+        opacity: 0.5;
+        z-index: -2;
+    }
+    
+    .smalltimecard p{
+        text-align: center;
+        position: relative;
+        bottom: 16px;
+        right: 10px;
+    }
+    
+    .smalltimecard .pic1{
+        background-image: url(./timeline.svg);
+        height: 47px;
+        width: 53px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 22px;
+        padding-top: 7px;
+        bottom: 27px;
+        margin: 11px;
+        border-radius: 5px;
+    }
+    
+    .smalltimecard .lpic{
+        background-image: url(./AM_svg.svg);
+        height: 41px;
+        width: 53px;
+        display: flex;
+        justify-content: center;
+        position: relative; 
+        right: 28px;
+        padding-top: 7px;
+        bottom: 28px;
+        margin: 11px;
+        border-radius: 5px;
+        color: white;
+        padding-top: 14px;
+    }
+    
+    .smalltimecard img{
+        width: 60px;
+        height: 60px;
+    }
+}
