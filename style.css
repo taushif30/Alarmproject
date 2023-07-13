@@ -287,7 +287,7 @@ button:hover{
 }
 
 
-@media screen and (min-width:414px) and (max-width:819px){
+@media  (max-width:500px){
     body{
         padding: 0px;
         margin: 0px;
@@ -299,7 +299,7 @@ button:hover{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin: 35px;
+        margin-left: 35%;
     }
     
     .innercontainer1{
